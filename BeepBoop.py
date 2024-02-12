@@ -9,3 +9,10 @@ def Mahlzeit(Essen):
         print(f"Es wird {i} gegessen")
 
 Mahlzeit(["Brot","Wasser","Mehl","Weißbier"])
+
+def Getränke(Durstlevel):
+    while Durstlevel > 0:
+        print("Cola wurde verspeist")
+        Durstlevel -= 1
+
+Getränke(5)
