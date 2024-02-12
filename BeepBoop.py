@@ -8,4 +8,4 @@ def Mahlzeit(Essen):
     for i in Essen:
         print(f"Es wird {i} gegessen")
 
-Mahlzeit(["Brot","Wasser","Mehl"])
+Mahlzeit(["Brot","Wasser","Mehl","Weißbier"])
